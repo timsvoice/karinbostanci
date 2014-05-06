@@ -1,4 +1,5 @@
 *, body {
+
 }
 
 hr {
@@ -18,4 +19,21 @@ hr {
 
 .hidden {
 	display: none !important;
+}
+
+.partition {
+  position: absolute;
+  bottom: 0;
+}
+
+.partition-container {
+  position: relative;
+}
+
+.message {
+  background: $black;
+}
+
+#splash {
+  background: $branding-color;
 }
