@@ -32,8 +32,15 @@ hr {
 
 .message {
   background: $black;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
 }
 
 #splash {
   background: $branding-color;
+}
+
+img {
+  padding: 0;
+  margin: 0;
 }
