@@ -1,0 +1,10 @@
+@mixin dead-center($content-width, $content-height) {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  margin-left: (-1 * $content-height/2);
+  position: absolute;
+  top: (-1 * $content-height/2);
+  left: 50%;
+  width: $content-width;
+  height: $content-height;
+  visibility: visible;
+}

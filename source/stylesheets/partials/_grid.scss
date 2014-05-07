@@ -9,3 +9,19 @@
 hr.section {
 	margin: 2rem 0rem 1rem 0rem;
 }
+
+.centered {
+   width: 450px;
+   height: 450px;
+   position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: -200px;
+   margin-top: -200px;
+   @media only screen and (max-width: 40em) { 
+      width: 250px;
+      height: 250px;
+      margin-left: -125px;
+      margin-top: -125px;
+   }
+}
